@@ -43,3 +43,33 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# C++ related
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+Makefile
+
+# Build directories
+bin/
+obj/
+build/
+
+# VS Code C++ extension (optional)
+.vscode/
+
+# CLion / JetBrains C++
+.idea/
+cmake-build-debug/
+cmake-build-release/
